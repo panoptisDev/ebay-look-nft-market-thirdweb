@@ -5,7 +5,7 @@ import network from "../utils/network";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider desiredChainId={ChainId.Goerli}>
+    <ThirdwebProvider desiredChainId={ChainId.Mumbai}>
       <Component {...pageProps} />
     </ThirdwebProvider>
   );
